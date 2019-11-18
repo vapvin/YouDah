@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/css.css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Sans+SC|ZCOOL+QingKe+HuangYou|Noto+Serif&display=swap" rel="stylesheet">
+	<title>나다희 포트폴리오 사이트 - 크롬최적화 :) </title>
+</head>
+<body>
+	<div id="container">
+		<section class="page" id="main">
+			<div id="txt1">NADAHEE'S PORTFOLIO SITE</div>
+			<div id="txt2"><strong>A</strong>ny way the wind blows,</div>
+			<div id="txt3">doesn’t really matter to me,</div>
+			<div id="line"></div>
+			<div id="txt4">TO ME</div>
+			<div id="line2"></div>
+			<img id="scrd" src="./images/scrd.png" alt="scrolldown">
+			<span>본 사이트는 비상업 사이트입니다.<br>크롬에 최적화 되어 있습니다.</span>
+		</section>
+
+		<section class="page" id="sub" style="background:#fff;">
+			<div id="gongja"><span>和而不流</span><br><br><p>[화이불류]<br>화합을 실천하되, <br> 휩쓸리지 않고 <br> <mark style="background:rgba(0,0,0,0.1)">더불어 살다.</mark><br>《중용(中庸) 10장》</p></div>
+			<section class="form">
+				<div id="modal">
+					<h1>01</h1>
+					<img src="./images/profile.png" alt="나를 소개합니다.">
+					<button id="resume">나다희가 좀 더 궁금하다면?</button>
+				</div>
+			</section>
+
+			<section class="form">
+				<div id="modal1">
+					<h1>02</h1>
+					<div class="formbox">
+						<img src="./images/me.png" alt="나의장점1">
+					</div>
+					<div class="formbox">
+					</div>
+					<div class="formbox">
+						<img src="./images/foryou.png" alt="나의장점3">
+					</div>
+				</div>
+			</section>
+
+			<section class="form">
+				<div id="modal2">
+					<h1>03</h1>
+					<div id="slide_box">
+						<ul>
+							<li><img src="./images/kakaotalk01.jpg" alt="슬라이드1"></li>
+							<li><img src="./images/kakaotalk02.jpg" alt="슬라이드2"></li>
+							<li><img src="./images/kakaotalk03.jpg" alt="슬라이드3"></li>
+						</ul>
+					</div>
+					<img id="that" src="./images/likethat.png">
+				</div>
+			</section>
+
+			<section class="form">
+				<div id="modal3" style="display:none;">
+					<h1>04</h1>
+					<div id="box04">
+						<div><img src="./images/future1.png" alt="미래상"></div>
+						<div><img src="./images/future2.png" alt="미래상2"></div>
+					</div>
+				</div>
+				<button id="Btn" style="background:#ffd73a">click me!</button>
+			</section>
+
+		</section>
+
+		<section class="page" id="sub2" style="background:#2690c3">
+			<div id="txt5">PORTFOLIO</div>
+			<div id="p_box">
+				<div class="tabcontent" id="content1">
+					<div class="guidebox">
+						<h2>포트폴리오 사이트</h2>
+						<span>퍼블리싱 100%</span>
+						<span>원스크롤 페이지</span>
+						<span>slide script</span>
+						<span>button animation</span>
+						<span>tab menu</span>
+					</div>
+					<div class="tc-box" style="background: url(./images/tc-content1.jpg); background-size:cover;">
+					</div>
+					<button class="viewBtn" onclick="window.open('index.html')">view</button>
+				</div>
+				<div class="tabcontent" id="content2">
+					<div class="guidebox"></div>
+					<div class="tc-box">
+						rrrr
+					</div>
+					<button class="viewBtn">view</button>
+				</div>
+				<div class="tabcontent" id="content3">
+					<div class="guidebox"></div>
+					<div class="tc-box">
+						rrrr
+					</div>
+					<button class="viewBtn">view</button>
+				</div>
+				<div class="tabcontent" id="content4">
+					<div class="guidebox"></div>
+					<div class="tc-box">
+						eeee
+					</div>
+					<button class="viewBtn">view</button>
+				</div>
+			</div>
+			<div id="thumbnail">
+				<ul>
+					<li class="tabtn" onclick="goTab('content1', this)" id="defaultOpen"><img src="./images/thumnail1.jpg"></li>
+					<li class="tabtn" onclick="goTab('content2', this)"></li>
+					<li class="tabtn" onclick="goTab('content3', this)"></li>
+					<li class="tabtn" onclick="goTab('content4', this)"></li>
+				</ul>
+			</div>
+		</section>
+		<section id="last">
+			<div id="contact">
+				<h3>thank you for watching. :)</h3>
+				<p>멋진 제가 되는 날을 기다리며 갈고 닦고 있습니다. <br> 함께 꿈꾸지 않으시겠어요?</p>
+				<button>Join US</button>
+			</div>
+		</section>
+	</div>
+	<script src="./js/script.js"></script>
+</body>
+</html>
